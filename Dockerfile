@@ -8,4 +8,5 @@ RUN mv /tmp/omnipitr/lib/OmniPITR /usr/local/lib
 RUN sanity-check.sh
 RUN rm -r /tmp/omnipitr
 ADD bin/* /usr/local/sbin
+ADD config/* /var/lib/postgresql/data
 RUN chmod +x /usr/local/sbin/omnipitr_wal_backup.sh
