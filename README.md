@@ -2,8 +2,9 @@
 
 [![docker hub badge](https://img.shields.io/docker/pulls/5monkeys/postgres.svg)](https://hub.docker.com/r/5monkeys/postgres/)
 
-Docker image for PostgreSQL with support for [OmniPITR](https://github.com/omniti-labs/omnipitr).
-This image is based on the official PostgreSQL [image](https://hub.docker.com/_/postgres/).
+Docker image for PostgreSQL with support for WAL archiving using
+[OmniPITR](https://github.com/omniti-labs/omnipitr).  This image is based on
+the official PostgreSQL [image](https://hub.docker.com/_/postgres/).
 
 ## Usage
 
