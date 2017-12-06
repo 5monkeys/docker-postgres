@@ -19,7 +19,7 @@ function log_and_exit() {
 
 # Start the backup of this segment
 /usr/local/sbin/omnipitr-archive \
-    -l /dev/stdout \
+    -l '-' \
     -D $PGDATA\
     -dl gzip=$OMNIPITR_WAL_BACKUP_DIR \
     $WAL_SEGMENT
